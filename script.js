@@ -166,7 +166,8 @@ function clickHandler(e) {
             resultRef.innerText = `The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${ctr} days! 😔`;
         }
     } else {
-        alert(resultRef.innerText = "Please Enter The Date!")
+        // resultRef.innerText = "Please Enter The Date!"
+        alert("Please Enter The Date!")
     }
 }
 showBtnRef.addEventListener('click', clickHandler);
